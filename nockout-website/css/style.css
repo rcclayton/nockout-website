@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Nockout Main Style */
+/* Rebeca Carrillo 2015 */
+
+/* HEADINGS */
+h1 {
+    font-size: 36px;
+    line-height: 40px;
+	font-family: 'Raleway', sans-serif;
+	color:#F0F7F6;
+  
+}
+
+
+h2 {
+    font-size: 30px;
+    line-height: 40px;
+	font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 40px;
+	font-family: 'Raleway', sans-serif;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+h5 {
+    font-size: 14px;
+    line-height: 20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+h6 {
+    font-size: 12px;
+    line-height: 20px;
+	font-family: 'Raleway', sans-serif;
+}
+
+h6 {
+    font-size: 72px;
+    line-height: 40px;
+	font-family: 'Raleway', sans-serif;
+  font-color: #CCC000
+}
+
+/*------------------------------------*
+  MAIN
+*------------------------------------*/
+html {
+  background: #000;
+  color: #333;
+  font-size: 14px;
+}
+
+ {
+  margin-bottom: 24px;
+}
+
+p+p {
+  text-indent: 1em;
+  margin-top: -24px;
+}
+
+/*------------------------------------*
+  IMAGES
+*------------------------------------*/
+
+#me {
+  float: right;
+  margin: 0 0 0 20px;
+  display: block;
+  width: 148px;
+  height: auto;
+  padding: 5px;
+  border: 1px solid #ccc;
+  
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/*--- PARAGRAPHS ---*/
+p {
+  margin-bottom: 24px;
+  color:#F9F9F9;
+  font-family: Raleway;
+  font-size:12px;
+}
+
+body > p:first-of-type {
+  font-size: 1.125em;
+    /* 18px → 18 ÷ 16 = 1.125 */
+
+  line-height: 1.333em;
+    /* 24px → 24 ÷ 18 = 1.3333(3) */
+}
